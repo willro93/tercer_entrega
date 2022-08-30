@@ -1,0 +1,8 @@
+$title-font:'IBM Plex Mono', monospace;
+$p-font:'Roboto Mono', monospace;
+@mixin background(){
+    background-color: rgba(122, 8, 117, 0.562);
+}
+@import"header";
+@import"contenido";
+@import"footer";

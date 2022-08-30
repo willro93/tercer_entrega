@@ -1,0 +1,76 @@
+body{
+    background-color: beige;
+}
+h2{
+    font-family: $title-font;
+    text-align: center;
+    color: blanchedalmond;
+}
+h5{
+    font-family: $title-font;
+}
+.container-fluid{
+    font-family: $p-font;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+
+.description1{
+.izquierda1{
+    background-color: rgb(202, 158, 165);
+    padding: 1.2rem;
+}
+img{
+    transition: all 2s ease;
+    &:hover{
+        transform: scale(1.1, 1.1);
+    }
+}
+}
+
+.centro2{
+    @include background; 
+    color: rgb(226, 248, 248);
+    height: 450px;
+    font-size: 1.5rem;
+    overflow: auto;
+}
+.imagenFlores{
+    transition: all 2s ease;
+    &:hover{
+        transform: scale(1.2, 1.2);
+
+    }
+}
+
+.izquierda4{
+    @include background;
+    color: rgb(226, 248, 248);
+    height: 750px;
+    overflow: auto;
+    ul{
+        list-style: none;
+    }
+}
+.imagenIngredientes{
+    transition: all 2s ease;
+    &:hover{
+        transform: scale(1.2, 1.2);
+
+    }
+}
+.card-body{
+    @include background;
+    
+}
+.centro4{
+    @include background; 
+    color: rgb(226, 248, 248);
+    height: 450px;
+    font-size: 1.5rem;
+    overflow: auto;
+    ul{
+        text-align: left;
+    }
+}
